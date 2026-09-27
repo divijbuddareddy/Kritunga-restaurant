@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story & Culinary Heritage | Kritunga Restaurant | Marathahalli</title>
+  <meta name="description" content="Discover the authentic heritage behind Kritunga Restaurant. From traditional Rayalaseema clay pots to indigenous Guntur chillies and slow wood-fire cooking.">
+  <link rel="canonical" href="about.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Our Story — Kritunga Restaurant Heritage">
+  <meta property="og:description" content="The authentic story of Rayalaseema clay pot cooking, stone-ground spices, and pure Andhra hospitality.">
+  <meta property="og:image" content="images/hero/about-hero.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="icon" type="image/webp" href="images/logo-emblem.webp">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header scrolled" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Kritunga Restaurant Home">
+        <div class="logo-emblem"><img src="images/logo-emblem.webp" alt="Kritunga Logo Emblem"></div>
+        <div class="logo-text-group">
+          <span class="logo-title">KRITUNGA</span>
+          <span class="logo-subtitle">The Palegar's Cuisine</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Menu & Order</a></li>
+          <li><a href="about.html" class="nav-link active">Our Story</a></li>
+          <li><a href="locations.html" class="nav-link">Locations</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Cart Header Button -->
+      <div class="header-actions">
+        <button class="cart-header-btn" onclick="openCartDrawer()" aria-label="View Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span>Cart</span>
+          <span class="cart-badge cart-badge-count">0</span>
+        </button>
+
+        <button class="menu-toggle-btn" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <div class="mobile-nav-header">
+      <div class="logo-text-group">
+        <span class="logo-title">KRITUNGA</span>
+        <span class="logo-subtitle">The Palegar's Cuisine</span>
+      </div>
+      <button class="btn-close-drawer" id="closeMobileNav" aria-label="Close menu">✕</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="menu.html" class="nav-link">Menu & Order</a></li>
+      <li><a href="about.html" class="nav-link active">Our Story</a></li>
+      <li><a href="locations.html" class="nav-link">Locations</a></li>
+      <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+      <li><a href="contact.html" class="nav-link">Contact & Reservation</a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <a href="tel:+917619333335" class="btn btn-outline btn-block">Call +91 7619333335</a>
+      <a href="https://wa.me/917619333335" target="_blank" rel="noopener" class="btn btn-whatsapp btn-block">Order on WhatsApp</a>
+    </div>
+  </div>
+
+  <main style="padding-top: calc(var(--header-height) + 30px);">
+    <!-- Editorial Hero Section -->
+    <section class="section-padding-sm">
+      <div class="container">
+        <div class="section-header" style="max-width: 800px;">
+          <span class="section-tagline">Roots of Rayalaseema</span>
+          <h1>The Soul of Andhra Gastronomy</h1>
+          <p>
+            Born from the rugged, spice-blessed soil of Rayalaseema, Kritunga Restaurant was founded on a singular passion: to preserve and celebrate India’s most honest, fiery, and deeply comforting culinary heritage.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 60px; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--color-dark-border);">
+          <img src="images/hero/about-hero.jpg" alt="Rayalaseema Heritage Cooking" style="width: 100%; height: 420px; object-fit: cover;">
+        </div>
+
+        <!-- Story Pillars Grid -->
+        <div class="grid-3" style="margin-bottom: 70px;">
+          <div class="heritage-card">
+            <h3 class="text-gold" style="font-size: 1.3rem; margin-bottom: 12px;">1. Seasoned Clay Pots</h3>
+            <p>
+              Our culinary hallmark is the unglazed, wood-fired earthenware pot. Clay breathes during the cooking process, circulating heat gently to seal in the juices of meats while imparting an irreplaceable rustic aroma.
+            </p>
+          </div>
+
+          <div class="heritage-card">
+            <h3 class="text-gold" style="font-size: 1.3rem; margin-bottom: 12px;">2. Stone-Ground Spices</h3>
+            <p>
+              We source our red chillies directly from the sun-drenched fields of Guntur and dry roast them alongside whole coriander, cinnamon, and black pepper, grinding them with stone mills daily.
+            </p>
+          </div>
+
+          <div class="heritage-card">
+            <h3 class="text-gold" style="font-size: 1.3rem; margin-bottom: 12px;">3. Desi Ghee & Fresh Herbs</h3>
+            <p>
+              From tangy Gongura leaves plucked fresh to velvety, aromatic country buffalo ghee, we refuse shortcuts. Every biryani and curry represents the uncompromising generosity of South Indian feasting.
+            </p>
+          </div>
+        </div>
+
+        <!-- The Natukodi & Ragi Mudde Tradition -->
+        <div class="grid-2" style="align-items: center; margin-bottom: 70px;">
+          <div>
+            <span class="section-tagline">Timeless Comfort</span>
+            <h2>Ragi Mudde & Natukodi Pulao</h2>
+            <p style="margin: 18px 0;">
+              In the heart of Rayalaseema, no feast is complete without wholesome finger-millet <strong>Ragi Mudde</strong> or authentic <strong>Natukodi</strong> (country chicken) cooked in an earthen pot. This nutritious, hearty food sustained generations of farmers and royal dynasties alike.
+            </p>
+            <p>
+              At our Marathahalli kitchen, our master chefs honour these ancient recipes with exact adherence to temperature, timing, and balance of spices.
+            </p>
+            <div style="margin-top: 24px;">
+              <a href="menu.html" class="btn btn-primary">Taste the Heritage Menu →</a>
+            </div>
+          </div>
+          <div>
+            <img src="images/menu/traditional/ragi-mudde.webp" alt="Authentic Rayalaseema Ragi Mudde" style="border-radius: var(--radius-md); border: 1px solid var(--color-dark-border); width: 100%; height: 380px; object-fit: cover;">
+          </div>
+        </div>
+
+        <!-- Dining Experience Banner -->
+        <div style="background: var(--color-dark-surface); border: 1px solid var(--color-dark-border); border-radius: var(--radius-md); padding: 50px 40px; text-align: center;">
+          <h2 style="font-size: 2rem; margin-bottom: 16px;">Warm Hospitality at Marathahalli</h2>
+          <p style="max-width: 680px; margin: 0 auto 30px auto;">
+            Step into an ambience filled with the fragrance of pure ghee, bubbling curries, and warm brass lanterns. We invite you to experience royal Andhra dining with family and friends.
+          </p>
+          <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+            <a href="contact.html" class="btn btn-outline">Reserve a Table</a>
+            <a href="locations.html" class="btn btn-primary">Visit Our Outlet</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Slide-Over Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartDrawerOverlay">
+    <div class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="cart-drawer-header">
+        <h3 class="cart-drawer-title" id="cartTitle">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          Your Order Cart
+        </h3>
+        <button class="btn-close-drawer" onclick="closeCartDrawer()" aria-label="Close cart drawer">✕</button>
+      </div>
+
+      <div class="cart-drawer-body">
+        <div class="cart-empty-state" id="cartEmptyState">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <h4>Your Cart is Empty</h4>
+          <p>Explore our authentic Rayalaseema menu and add your favourite dishes!</p>
+          <a href="menu.html" class="btn btn-primary btn-sm" style="margin-top: 16px;" onclick="closeCartDrawer()">Browse Menu</a>
+        </div>
+        <div id="cartDrawerItems"></div>
+
+        <div class="customer-details-section" id="customerDetailsSection">
+          <h4 style="color: var(--color-warm-gold); font-size: 1.05rem;">Customer Details</h4>
+          <div class="form-group">
+            <label for="customerName">Name *</label>
+            <input type="text" id="customerName" class="form-control" placeholder="e.g. Divij" required>
+          </div>
+          <div class="form-group">
+            <label for="customerPhone">Phone *</label>
+            <input type="tel" id="customerPhone" class="form-control" placeholder="10-digit mobile number" maxlength="10" required>
+          </div>
+          <div class="form-group">
+            <label>Order Type</label>
+            <div class="form-radio-group">
+              <label class="radio-card active" id="pickupRadioCard">
+                <input type="radio" name="orderType" value="Pickup" checked onchange="handleOrderTypeChange('Pickup')">
+                <span>Pickup</span>
+              </label>
+              <label class="radio-card" id="deliveryRadioCard">
+                <input type="radio" name="orderType" value="Delivery" onchange="handleOrderTypeChange('Delivery')">
+                <span>Delivery</span>
+              </label>
+            </div>
+          </div>
+          <div class="form-group" id="deliveryAddressGroup" style="display: none;">
+            <label for="deliveryAddress">Delivery Address *</label>
+            <textarea id="deliveryAddress" class="form-control" rows="2" placeholder="Full address with landmark"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="customerNote">Special Note</label>
+            <input type="text" id="customerNote" class="form-control" placeholder="e.g. Please pack the order carefully.">
+          </div>
+          <p class="disclaimer-note">
+            ⚠️ <strong>Notice:</strong> WhatsApp is our ordering channel. The restaurant confirms availability manually.
+          </p>
+        </div>
+      </div>
+
+      <div class="cart-drawer-footer" id="cartDrawerFooter" style="display: none;">
+        <div class="cart-summary-row">
+          <span>Total Items</span>
+          <span id="cartTotalItemsDisplay">0 items</span>
+        </div>
+        <div class="cart-summary-row total-row">
+          <span>Subtotal</span>
+          <span id="cartSubtotalDisplay" class="text-gold">₹0</span>
+        </div>
+        <button class="cart-clear-btn" onclick="CartManager.clearCart()">Clear Cart</button>
+        <button class="btn btn-primary btn-block btn-lg" id="proceedToDetailsBtn" onclick="toggleCustomerDetails()">
+          PROCEED TO ORDER →
+        </button>
+        <button class="btn btn-whatsapp btn-block btn-lg" id="proceedToWhatsAppBtn" style="display: none;" onclick="proceedToWhatsAppOrder()">
+          PROCEED TO WHATSAPP
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Floating Action Bar -->
+  <aside class="mobile-floating-bar" aria-label="Mobile quick actions">
+    <div class="floating-actions-grid">
+      <a href="tel:+917619333335" class="floating-btn call-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+        <span>Call Now</span>
+      </a>
+      <a href="https://wa.me/917619333335" target="_blank" rel="noopener" class="floating-btn whatsapp-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.074-2.106-.511-1.805-.747-2.946-2.584-3.036-2.704-.09-.12-1.282-1.706-1.282-3.255 0-1.549.809-2.31 1.096-2.625.286-.315.626-.394.834-.394.208 0 .416.002.599.011.194.01.455-.074.71.538.263.633.898 2.196.977 2.357.078.161.13.349.026.562-.104.213-.157.346-.313.529-.157.183-.33.409-.472.548-.157.155-.32.325-.137.64.182.314.811 1.339 1.738 2.164 1.192 1.06 2.196 1.389 2.51 1.543.314.155.498.13.682-.08.183-.21.783-.915.992-1.229.209-.314.417-.261.699-.157.283.104 1.794.846 2.102 1.002.308.157.514.235.589.366.075.131.075.759-.069 1.164z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <button class="floating-btn active-cart" onclick="openCartDrawer()">
+        <span class="cart-badge-count" style="font-size: 0.9rem;">0</span>
+        <span class="floating-cart-total">₹0</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 16px;">
+            <div class="logo-emblem"><img src="images/logo-emblem.webp" alt="Kritunga Logo Emblem"></div>
+            <div class="logo-text-group">
+              <span class="logo-title">KRITUNGA</span>
+              <span class="logo-subtitle">The Palegar's Cuisine</span>
+            </div>
+          </div>
+          <p>
+            The benchmark of Rayalaseema gastronomy. Handcrafted with traditional earthen clay pots and cold-pressed pure spices.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Explore Menu</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="contact.html">Table Reservation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Timings</h4>
+          <p><strong>Lunch:</strong><br>11:30 AM – 03:30 PM</p>
+          <p><strong>Dinner:</strong><br>07:00 PM – 11:00 PM</p>
+          <p><span class="text-gold">Open All 7 Days</span></p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Flagship Location</h4>
+          <p>3, Outer Ring Road, near Tanishq Jewellery, Marathahalli, Bengaluru, Karnataka 560037</p>
+          <p><strong>Phone:</strong> <a href="tel:+917619333335" class="text-gold">+91 7619333335</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/917619333335" target="_blank" rel="noopener" class="text-gold">+91 7619333335</a></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Kritunga Restaurant. All Rights Reserved.</div>
+        <div>HTML5 • CSS3 • Vanilla JavaScript (No Frameworks)</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
